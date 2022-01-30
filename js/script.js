@@ -1,3 +1,17 @@
+const cats = [
+    {
+      name: "Arnold",
+      age: 20,
+    },
+    {
+      name: "Harry",
+    },
+    {
+      name: "Aragon",
+      age: 11,
+    },
+  ];
+
 // Question 1
 /*
 Create an object called cat.
@@ -69,8 +83,7 @@ function getName(list) {
     }
   }
 
-  getName(cats);
-
+getName(cats)
   
 
 
@@ -110,6 +123,13 @@ const catContainer = document.querySelector(".cat-container");
   }
 
   catContainer.innerHTML = createCats(cats);
+
+
+
+
+
+
+  
 
 
 
